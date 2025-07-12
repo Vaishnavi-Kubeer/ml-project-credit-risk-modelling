@@ -2,7 +2,6 @@ import joblib
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-from sympy.crypto.crypto import decipher_affine
 from xgboost.dask import predict
 
 MODEL_PATH='artifacts/model_data.joblib'
