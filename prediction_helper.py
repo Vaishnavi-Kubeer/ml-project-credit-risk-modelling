@@ -2,7 +2,7 @@ import joblib
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-from xgboost.dask import predict
+
 
 MODEL_PATH='artifacts/model_data.joblib'
 
