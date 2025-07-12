@@ -34,7 +34,7 @@ with row3[2]:
 with row4[0]:
     residence_type=st.selectbox('Residence Type',['Owned','Rented','Mortgage'])
 with row4[1]:
-    loan_purpose=st.selectbox('Loan Purpose',['Eduction','Home','Personal','Auto'])
+    loan_purpose=st.selectbox('Loan Purpose',['Education','Home','Personal','Auto'])
 with row4[2]:
     loan_type=st.selectbox('Loan Type',['Secured','Unsecured'])
 
